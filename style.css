@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: none;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.weather {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.comment {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.coments {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.text {
+    height: 150px;
+}
+
+.comment_p {
+    font-family: Arial,  sans-serif;
+    /* font-size: 20px; */
+
+}
+
+
+.footer {
+   /* margin-top: 20px;
+    background-color: #79b3d9;
+    color: #fff; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #79b3d9;
+    color: #fff;
+
+}
+
+.info {
+   padding-top: 20px;
+   font-size: 15px;
+}
+
+.button {
+    margin: 30px;
+    background-color: #7fa9c489;
+    color: #fff;
+    padding: 10px;
+}
+
+.btn {
+    margin: 30px;
+    background-color: #7fa9c489;
+    color: #fff;
+    padding: 10px; 
+}
+
+.input2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.city {
+    margin-bottom: 10px;
+}
+
+.tempp {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 200px) and (max-width: 600px) {  
+    body {  
+      display: block;   
+      font-size: 16px;  
+      margin: 0;  
+      padding: 10px;  
+    }  
+    
+    .app-container {  
+      width: 100%;  
+      max-width: 600px;  
+      margin: 0 auto;  
+    }
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #79b3d9;
+    color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.burger .line {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px;
+}
+
+.link{
+    padding: 10px;
+}
+
+
+@media (min-width: 200px) and (max-width: 600px) {
+    .nav-links {
+        display: none;
+        
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #79b3d9;
+        padding: 20px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+        
+        width: 150px;
+
+    }
+
+    .burger {
+        display: flex;
+    }
+}
+
+
+
+#reviewcontainer {
+    font-family: Arial,  sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: solid 1px #ccc;
+    
+}

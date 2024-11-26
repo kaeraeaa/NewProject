@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Weather</div>
+        <nav>
+            <ul class="nav-links">
+                <li class="link"><a href="#">Головна</a></li>
+                <li class="link"><a href="#">Про нас</a></li>
+                <li class="link"><a href="#">Контакти</a></li>
+            </ul>
+            <div class="burger" onclick="toggleMenu()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+
+    <h1 class="h1">Weather</h1>
+    <div class="weather">
+    <p class="city">City</p>
+    <input class="input" type="text">
+    <button class="button">Відправити</button>
+    <p></p>
+    <p class="p2"></p>
+</div>
+
+    <h2 class="coments">Comment</h2>
+        <div class="comment">
+            <p>Nickname</p>
+            <input class="input2" type="text">
+        <textarea class="text" name="" id=""></textarea>
+        <button class="btn">Відправити</button>
+    </div>
+
+    <div id="reviewcontainer">
+        <!-- <h2 id="review-name">Ім'я</h2>
+        <p id="review-comment">Відгук</p> -->
+      </div>
+   
+
+    <footer class="footer">
+        <div>
+            <p class="logo">Weather</p>
+            <div class="info">
+            <p>2024</p>
+            <p>all rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+ <script src="script.js"></script>
+ <script src="./weather.js"></script>
+</body>
+</html>
